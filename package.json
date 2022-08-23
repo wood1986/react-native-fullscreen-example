@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "18.0.0",
     "react-native": "0.69.3",
-    "react-native-video": "git+https://github.com/wood1986/react-native-video.git#eeeda247a389a023628b6899918f247fca6f30d4"
+    "react-native-video": "https://github.com/wood1986/react-native-video.git#a92ba2a9bd830e94c37b44674120fcd80005f28b"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
