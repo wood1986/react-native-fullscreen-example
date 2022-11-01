@@ -1,0 +1,15 @@
+diff --git a/ios/Video/RCTVideoPlayerViewController.swift b/ios/Video/RCTVideoPlayerViewController.swift
+index e398e62f0579b799dff053a16a83b610482a65f7..4782d2ad24c61ac43ede168b7b1ba36f96af0800 100644
+--- a/ios/Video/RCTVideoPlayerViewController.swift
++++ b/ios/Video/RCTVideoPlayerViewController.swift
+@@ -25,6 +25,10 @@ class RCTVideoPlayerViewController: AVPlayerViewController {
+             rctDelegate.videoPlayerViewControllerDidDismiss(playerViewController: self)
+         }
+     }
++    
++    deinit {
++        print("RCTVideoPlayerViewController deinit")
++    }
+ 
+     #if !TARGET_OS_TV
+ 

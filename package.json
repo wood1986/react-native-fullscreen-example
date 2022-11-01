@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "18.0.0",
     "react-native": "0.69.3",
-    "react-native-video": "https://github.com/wood1986/react-native-video.git#a79c30eaba277db4cd13b3515567c17b7a09ee58"
+    "react-native-video": "6.0.0-alpha.3"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -42,5 +42,9 @@
       "json",
       "node"
     ]
+  },
+  "packageManager": "yarn@3.2.4",
+  "resolutions": {
+    "react-native-video@6.0.0-alpha.3": "patch:react-native-video@npm%3A6.0.0-alpha.3#./.yarn/patches/react-native-video-npm-6.0.0-alpha.3-767ddb9658.patch"
   }
 }
